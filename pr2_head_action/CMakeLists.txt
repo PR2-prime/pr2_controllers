@@ -15,7 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
    actionlib 
    kdl_parser)
 
-find_package(orocos_kdl REQUIRED)
+#find_package(orocos_kdl REQUIRED)
 
 find_package(Boost REQUIRED COMPONENTS thread)
 include_directories(${Boost_INCLUDE_DIRS}
